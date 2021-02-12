@@ -1,0 +1,3 @@
+/home/osboxes/Desktop/github-action/github-action/build/CMakeFiles/rebuild_cache.dir
+/home/osboxes/Desktop/github-action/github-action/build/CMakeFiles/edit_cache.dir
+/home/osboxes/Desktop/github-action/github-action/build/CMakeFiles/test.dir
