@@ -33,3 +33,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           ./build.sh
+          cd build
+          ./test
