@@ -1,29 +1,14 @@
-addons:
-  apt:
-    sources:
-      - george-edison55-precise-backports
-    packages:
-      - cmake-data
-      - cmake
-install: 
-  	./build.sh
-      
-      
 language: cpp
 os: linux
 compiler: gcc
-
-cache: # see https://docs.travis-ci.com/user/caching/
 addons:
-  apt:
-    packages: 
-    	-lcov
-    	-cmake-data
-    	-cmake
- 
+   apt:
+     packages:
+        -lcov
+        -cmake-data
+        -cmake
 script: ./build.sh
-
-
 notifications:
   email:
-    - yashrajs@apra.in      
+    -yashrajs@apra.in
+
