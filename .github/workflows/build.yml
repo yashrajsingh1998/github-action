@@ -38,5 +38,5 @@ jobs:
       
       - uses: actions/upload-artifact@main
         with:
-          name: build
+          name: test
           path: build/test
