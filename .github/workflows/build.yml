@@ -35,3 +35,8 @@ jobs:
           ./build.sh
           cd build
           ./test
+      
+      - uses: actions/upload-artifact@main
+        with:
+          name: build
+          path: build/test
