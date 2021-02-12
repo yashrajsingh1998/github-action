@@ -5,6 +5,7 @@ addons:
     packages:
       - cmake-data
       - cmake
-  install: 
+install: 
   	./build.sh
+      
       
