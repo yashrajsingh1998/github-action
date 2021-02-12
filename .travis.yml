@@ -4,7 +4,6 @@ compiler: gcc
 addons:
    apt:
      packages:
-        -lcov
         -cmake-data
         -cmake
 script: ./build.sh
