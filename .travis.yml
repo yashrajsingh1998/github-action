@@ -20,11 +20,7 @@ addons:
     	-lcov
     	-cmake-data
     	-cmake
-
-install:
-  - mkdir -p $HOME/.cache
-  #- touch $HOME/.cache/mydependency.so
-
+ 
 script: ./build.sh
 
 
