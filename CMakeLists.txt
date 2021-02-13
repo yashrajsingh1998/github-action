@@ -3,7 +3,7 @@ project(Sample LANGUAGES CXX)
 
 
 
-add_executable(test 
+add_executable(test1 
   main.cpp
 ) 
 
