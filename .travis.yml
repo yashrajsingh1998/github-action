@@ -69,7 +69,7 @@ before_deploy:
       - echo $GITHUB_TOKEN
       
 deploy:
-  provider: build
+  provider: releases
   skip_cleanup: true
   api_key: $GITHUB_TOKEN
   #on:
