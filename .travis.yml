@@ -63,7 +63,7 @@ script:
 deploy:
   provider: releases
   skip_cleanup: true
-   on:
+  on:
     tags: true
     branch: master
     
