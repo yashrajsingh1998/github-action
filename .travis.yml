@@ -68,6 +68,6 @@ deploy:
   skip_cleanup: true
   draft: true    
   on:
-    repo: yashrajsingh1998/github-actions
+    repo: yashrajsingh1998/github-action
     tags: true
     
