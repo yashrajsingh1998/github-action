@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 cmake_minimum_required(VERSION 3.16)
 include("./cmake/HunterGate.cmake")
 include("./cmake/HunterGate.cmake")
@@ -6,13 +7,16 @@ HunterGate(
     SHA1 "1258e48a1c06ce027b6d3aa141c7f9661ff0d843"
 	FILEPATH ${CONFIG_FILEPATH}
   )
+=======
+cmake_minimum_required(VERSION 3.5.1)
+>>>>>>> cfc71e30cfc0455a4ff26752418a8c39e5328189
 project(Sample LANGUAGES CXX)
 
 hunter_add_package(Boost COMPONENTS system thread chrono)
 find_package(Boost CONFIG REQUIRED system thread chrono)
 
 
-add_executable(test 
+add_executable(test1 
   main.cpp
 ) 
 
