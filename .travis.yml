@@ -64,7 +64,7 @@ deploy:
   provider: releases
   skip_cleanup: true
   on:
-    tags: true
+    #tags: true
     branch: master
     
   #github_token: 897d37cbeb4825b4cbb4d7383cfe151d39fb0046
