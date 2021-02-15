@@ -65,14 +65,16 @@ before_deploy:
       - git config --local user.email yashrajs949@gmail.com
       - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
       - git tag $TRAVIS_TAG
+      - echo "..........."
+      - echo $GITHUB_TOKEN
       
 deploy:
   provider: releases
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  on:
-    tags: false
-    branch: master
+  #on:
+    #tags: true
+    #branch: master
     
   #github_token: 897d37cbeb4825b4cbb4d7383cfe151d39fb0046
   file: build/test
