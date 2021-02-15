@@ -71,7 +71,7 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   on:
-    tags: true
+    tags: false
     branch: master
     
   #github_token: 897d37cbeb4825b4cbb4d7383cfe151d39fb0046
