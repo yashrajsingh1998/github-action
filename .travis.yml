@@ -69,5 +69,5 @@ deploy:
   draft: true    
   on:
     repo: yashrajsingh1998/github-action
-    tags: true
+   # tags: true
     
