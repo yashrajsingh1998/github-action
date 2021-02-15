@@ -64,9 +64,9 @@ deploy:
   provider: releases
   #api_key: 
   #  secure: 12345678
-  github_token: 897d37cbeb4825b4cbb4d7383cfe151d39fb0046
+  #github_token: 897d37cbeb4825b4cbb4d7383cfe151d39fb0046
   api_token:
-    secure: 897d37cbeb4825b4cbb4d7383cfe151d39fb0046
+    secure: szoCgA0Qpue+xe24PAY/F03iTI6OOV1dM8XY9kDMMPMCJ+CZfy7Yq8yv1ixT3mTadFERiixSETVP7D4ErUoUEYRsNB/y97LwYKlCj4rOd58VxD04tsD/tyc4XmC7qUEeXFy3kSWHRfupUsBYzKmVMy3ozU+1Tra8lJd6+BfbGAq54kr9sVdQCN85aYwBu/2R+FfLNoS3GHwjXmmNEYT9YpInIV/y8CeKwTFXecVWdLPRe2sLgl8tmrKUaGqDWYPtlwswd3oqguJKHvnYxgYpcTqwv7aYQn9N0n4ESoewhPCAA7i6KcKm/oIcuPqGlxuue3ibRVnQ9pXGm2eP3CX+cn19E6kAHDyPInWDZlf+2mWfbJt/PtgwUgj56qaOShScWBUV5oP/AkBrZ67U4txLmCNy716O4c0NpBCwKLEYJj41SIEfhNFHyF7kaqIEzr6ZCckU+r2cUjHqD3wjXjTS/umNU3INJgK3ShihZz6i9r0KCQGB7boHv29i37+UxOqH8rr+taOkMdqSGnOibeyn7+xQzaYfzCuS2xzPgYJb10Msakf1Qh/O8qwEPvQ+Ty4BicSBCGxguaN0Z6fiwViGlPgbcxZKh/dXALBgBwh4BV5ixWXcUTX5RD90dhufytKm6pknLgM1vHZ3upFQYk38RPEJRML+Bv88JiLXfR17VY0=
   file: build/test
   skip_cleanup: true
   draft: true    
