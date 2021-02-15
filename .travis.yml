@@ -62,12 +62,14 @@ script:
      
 deploy:
   provider: releases
-  api_key: 
-    secure: 12345678
+  #api_key: 
+  #  secure: 12345678
+  github_token: $github_token
   file: build/test
   skip_cleanup: true
   draft: true    
+  local_dir: build
   on:
-    repo: yashrajsingh1998/github-action
+    branch: master
    # tags: true
     
