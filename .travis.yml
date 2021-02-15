@@ -65,6 +65,8 @@ deploy:
   #api_key: 
   #  secure: 12345678
   github_token: 897d37cbeb4825b4cbb4d7383cfe151d39fb0046
+  api_token:
+    secure: 897d37cbeb4825b4cbb4d7383cfe151d39fb0046
   file: build/test
   skip_cleanup: true
   draft: true    
