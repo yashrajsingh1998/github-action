@@ -66,5 +66,8 @@ deploy:
   password: Yashraj@1998
   file: build/test
   skip_cleanup: true
-  draft: true     
+  draft: true    
+  on:
+    repo: yashrajsingh1998/github-actions
+    tags: true
     
