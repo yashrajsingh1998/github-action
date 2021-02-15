@@ -62,7 +62,7 @@ script:
      
 deploy:
   provider: releases
-  api_key: rvV6A3...Gi0=
+  api_key: Yashraj@1998
   file: build/test
   skip_cleanup: true
   draft: true     
