@@ -64,7 +64,7 @@ deploy:
   provider: releases
   #api_key: 
   #  secure: 12345678
-  github_token: $87e00724e0889e8b6c5ec60dd4181b65239e5665
+  github_token: \87e00724e0889e8b6c5ec60dd4181b65239e5665
   file: build/test
   skip_cleanup: true
   draft: true    
