@@ -62,8 +62,8 @@ script:
      
 deploy:
   provider: releases
-  api_key: "12346789asdff"
-  file: "build/test"
+  api_key: rvV6A3...Gi0=
+  file: build/test
   skip_cleanup: true
   draft: true     
     
