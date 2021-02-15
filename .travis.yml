@@ -62,8 +62,8 @@ script:
      
 deploy:
   provider: releases
-  user: yashrajsingh1998
-  password: Yashraj@1998
+  api_key: 
+    secure: 12345678
   file: build/test
   skip_cleanup: true
   draft: true    
