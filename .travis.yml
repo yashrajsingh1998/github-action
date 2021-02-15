@@ -63,7 +63,7 @@ script:
 deploy:
   provider: releases
   skip_cleanup: true
-  github_token: 7b906e752a1a902158d1454bda4386e4a1d1d6c2
+  github_token: $GITHUB_TOKEN
   on:
     #tags: true
     branch: master
