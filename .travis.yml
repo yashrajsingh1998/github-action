@@ -60,6 +60,13 @@ script:
     # Build main and tests
     ############################################################################
      - ./build.sh
-     - cd build
-     - ./test
+
+ 
+     
+deploy:
+  provider: releases
+  api_key: "GITHUB OAUTH TOKEN"
+  file: "build/test"
+  skip_cleanup: true
+  draft: true     
     
