@@ -56,16 +56,13 @@ install:
         export PATH=${DEPS_DIR}/cmake/bin:${PATH}
       fi
 script:
-    ############################################################################
-    # Build main and tests
-    ############################################################################
      - ./build.sh
 
  
      
 deploy:
   provider: releases
-  api_key: "GITHUB OAUTH TOKEN"
+  api_key: "12346789asdff"
   file: "build/test"
   skip_cleanup: true
   draft: true     
