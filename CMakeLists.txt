@@ -21,7 +21,7 @@ add_executable(test1
 
 target_link_libraries(test1
     Boost::chrono
-    Boost::systemw
-    Boost::chrono
+    Boost::system
+    Boost::thread
     
 )   
