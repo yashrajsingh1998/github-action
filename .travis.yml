@@ -19,11 +19,12 @@ matrix:
       compiler: gcc
       addons:
        apt:
-         packages: g++-4.8
+         packages: &precise_latest_boost_packages 
+           - g++-4.8
            - gcc-4.8
            - boost1.72.0
             
-           # &precise_latest_boost_packages
+           # 
            #- gcov-4.9
            #- clang-3.7
            #- valgrind
@@ -31,10 +32,11 @@ matrix:
            #- python-yaml
            - lcov
            #- libopencv-dev
-         sources: llvm-toolchain-precise-3.7
+         sources: &precise_latest_boost_sources
+           - llvm-toolchain-precise-3.7
            - ubuntu-toolchain-r-test
             
-#             &precise_latest_boost_sources
+ 
          artifacts: true  
     
 before_install:
